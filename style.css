@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    font-family: Goudy Old Style, Garamond, Big Caslon, Times New Roman, serif;
+    text-align: center;
+}
+
+
+
+
+.navbar-brand {
+    font-size: 3.5rem;
+    color: #1b1b1b;
+    font-weight: normal;
+    max-width: 600px;
+    height: auto;
+    margin-right: auto;
+    padding: 50px;
+   
+}
+
+.top-container{
+    background-color: #dae0e5;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+
+.logo {
+    width: 15%;
+    position: absolute;
+    right: 25%;
+    margin-left: 10%;
+
+}
+
+.navbar{
+    padding:0 0 4.5rem;
+}
+
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: Montserrat-Light, sans-serif;
+    color: #FFC078;
+}
+
+form .gsc-search-box{
+    width: 50%;
+}
+
+@media (max-width: 1028px ){
+    .logo{
+        position:static;
+       
+        margin-left: 25%;
+        margin-right: 70%;
+        min-width: 40%;
+        
+    }
+    .navbar-brand{
+        display: none;
+    }
+   
+
+
+}
+
+.home-button{
+    top: 5%;
+    left: 80%;
+    position: absolute;
+    border: none;
+    background-color: #f8f8f8;
+    font-size: 1.2rem;
+}
+
+.container{
+    width: 100%;
+    background-color: #f8f8f8;
+}
+
+.container .row{
+    width: 80%;
+    margin: auto;
+}
+
+.container .row .header{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+
+.container .row .header h1{
+    padding-top: 30px;
+    font-size: 3.5rem;
+    color: rgb(15, 14, 14);
+}
+
+.container .row .header p{
+    margin-top: 15px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #6e6e6e;
+}
+
+
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.content .card{
+    flex: 1;
+    margin: 50px 20px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 1);
+    background-color: #fff;}
+
+.content .card img{
+    width: 100%;
+    height: auto;
+
+
+}
+
+.content .card h4{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 1.2rem;
+
+}
+
+.content .card p{
+    color: #6e6e6e;
+    line-height: 1.5;
+    font-size: 1 rem;
+    padding: 10px;
+
+}
+
+#image_1{
+    height: 50%;
+}
+
+@media screen and (max-width: 768px) {
+    .content{
+        flex-direction: column;
+    }
+    
+}
